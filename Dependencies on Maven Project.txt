@@ -1,0 +1,32 @@
+1. search spring-core maven dependency
+https://mvnrepository.com/artifact/org.springframework/spring-core
+
+<!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-core</artifactId>
+    <version>5.3.14</version>
+</dependency>
+
+2. search spring-context maven dependency
+https://mvnrepository.com/artifact/org.springframework/spring-context
+<!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-context</artifactId>
+    <version>5.3.14</version>
+</dependency>
+
+NOTE: Add above Dependencies in pom.xml
+
+3. search xml configuration in spring
+https://docs.spring.io/spring-framework/docs/4.2.x/spring-framework-reference/html/xsd-configuration.html
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+
+</beans>
