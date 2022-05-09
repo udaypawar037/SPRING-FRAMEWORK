@@ -1,0 +1,15 @@
+1. Search spring framework jar files
+https://repo.spring.io/ui/native/release/org/springframework/spring/
+select version 5.3.4
+
+2. Search spring logging jar file download
+https://jar-download.com/artifacts/commons-logging/commons-logging/1.2/source-code
+
+3. Search xml configuration in spring
+https://docs.spring.io/spring-framework/docs/4.2.x/spring-framework-reference/html/xsd-configuration.html
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
